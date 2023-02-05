@@ -1,15 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>class 1 </title>
-<h1> hello word </h1>
-<h2>  pw skill </h2>
+    <title>class 2 </title>
 </head>
-<body><P> indian is very huge country </P>
-    <img scr="naresh.jpg" alt="naresh"
-    
+<body>
+    <h1>MAHATMA GANDHI</h1>
+    <P> he is a great man of india </P>
+  <div class="container"></div>
+  <div id="main">mahatma gandi was a indian revolutionary</div>
+  <div class="container bg black" id="main"></div>
+  <element attribute="value"></element> 
+  <p title="customtitle"></p> 
+  <div>
+    <ul>
+        <li>he had born in 2oct.1869</li>
+    </ul>
+  </div>
+  <div>
+    <p> death of cause was gunshot</p>
+    <p></p>
+  </div>
+  <ul>
+    <li>his father name is karamchand gandhi</li>
+    <li>her mother nameis putlibai gandhi</li>
+    <li>full name is mohandas karamchand gandhio</li>
+    <li> he had died 30jan.1948</li>
+    <li>his child name is harilal,ramdas</li>
+  </ul>
+  <div>he was a member of congress govt.</div>
+  <nav>
+    <ul>
+        <li><a href="">he studied from university of london</a></li>
+        <li><a href=""></a>he studied from alfred high school</li>
+    </ul>
+  </nav>
+  <footer>
+    <p> his occupation is lawyer</p>
+  </footer>
 </body>
 </html>
