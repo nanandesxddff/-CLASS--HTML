@@ -1,0 +1,45 @@
+body {
+    background-color: red;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+div::after {
+    content: welcome to the demo;
+
+}
+@media (max-width:400px){
+    body {
+        background-color: black;
+
+    }
+    div::after {
+        content: very small;
+    }
+}
+ 
+ @media (min-width:400px) and (min-width: 768px) {
+    /* if viewport is atleast 900px
+    then this style will apply
+    */
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+ }
+ div ::after {
+    content:'smaller screen'
+ }
+ @media (min-width: 900px) {
+    /*
+    if view is atleast 900px
+    then this style will apply
+    */
+    body {
+        background-color: #ff006a;
+    }
+    div::after {
+        content: 'woah its working'
+
+    }
+ }
