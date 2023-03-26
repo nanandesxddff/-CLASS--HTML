@@ -1,0 +1,57 @@
+
+*{
+  margin:0;
+  padding:0;
+  background-color: rgba(245, 236, 236, 0);;
+  box-sizing: border-box;
+
+}
+body{
+ 
+  background-color: #fff;
+  display: flex;
+  flex-directionL: column;
+  justify-content: space-between;
+}
+
+
+button {
+background-color: rgb(41, 177, 20);
+padding:10px 5px;
+
+color: white;
+border: none;
+border-radius:;
+font-weight: 600;
+font-size: 18px;
+}
+
+
+.leftmain button {
+  background-color:green;
+  color:black;
+  border:1px solid black;
+  
+}
+nav {
+  display: flex;
+ 
+  align-content: center;
+}
+
+nav .logo{
+  font-weight: 700;
+  front-size: 30px;
+
+}
+nav ul {
+  diplay: flex;
+  align-items: center;
+ 
+}
+nav ul li {
+  list-style: none;
+  margin-right: 15%;
+}
+{
+}
